@@ -9,7 +9,6 @@
 <link rel="preconnect" href="https://res.cloudinary.com">
 <link rel="preconnect" href="https://connect.facebook.net">
 <link rel="dns-prefetch" href="https://www.clarity.ms">
-<link rel="preload" as="image" href="https://res.cloudinary.com/dmcurkcnk/image/upload/f_auto,q_auto,w_1200,c_limit,dpr_auto/v1787030544/maxresdefault_2_drje6j.jpg">
 
 <!-- Meta Pixel Code -->
 <script>
@@ -72,25 +71,11 @@ src="https://www.facebook.com/tr?id=1614154800142100&ev=PageView&noscript=1"
 
   /* HERO */
   .hero{
-    position: relative;
-    background-image:
-      linear-gradient(180deg, rgba(8,43,44,0.40) 0%, rgba(8,43,44,0.74) 38%, rgba(8,43,44,0.93) 62%, var(--teal-deep) 88%),
-      url('https://res.cloudinary.com/dmcurkcnk/image/upload/f_auto,q_auto,w_700,c_limit,dpr_auto/v1787030544/maxresdefault_2_drje6j.jpg');
-    background-size: cover;
-    background-position: center 32%;
-    background-repeat: no-repeat;
+    background: linear-gradient(180deg, var(--teal) 0%, var(--teal-deep) 100%);
     color: #F4EFE0;
-    padding: 54px 0 34px;
+    padding: 36px 0 30px;
     text-align: center;
   }
-  @media (min-width:700px){
-    .hero{
-      background-image:
-        linear-gradient(180deg, rgba(8,43,44,0.40) 0%, rgba(8,43,44,0.74) 38%, rgba(8,43,44,0.93) 62%, var(--teal-deep) 88%),
-        url('https://res.cloudinary.com/dmcurkcnk/image/upload/f_auto,q_auto,w_1600,c_limit,dpr_auto/v1787030544/maxresdefault_2_drje6j.jpg');
-    }
-  }
-  .hero .wrap{ position:relative; z-index:2; }
   .eyebrow{
     display:inline-block;
     font-size: 13px;
@@ -376,85 +361,109 @@ src="https://www.facebook.com/tr?id=1614154800142100&ev=PageView&noscript=1"
 <body>
 
 <!-- HERO -->
-<div class="hero" role="img" aria-label="Catfish farm">
+<div class="hero">
   <div class="wrap">
     <span class="eyebrow">Free Live Training · This Friday Only</span>
     <h1>The 3 Secrets to Building a Catfish Farm That Can Support the Life You Want <span class="accent">— Without Working Harder and Still Making the Same Money</span></h1>
-    <p class="sub">A free live training for new and struggling catfish farmers who want to build a serious, profitable farm — not just raise fish.</p>
-    <p class="sub" style="font-weight:700; color:#F4EFE0;">If you're already farming, in your first or second year, struggling to make good profit, or fully prepared to start within the next 7 days, this training is for you.</p>
-
-    <a href="#" class="cta-btn" id="cta-hero" data-cta="hero">
-      <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7.03 3 3 7.03 3 12c0 1.77.51 3.42 1.4 4.81L3 21l4.34-1.37A8.96 8.96 0 0 0 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9Z" stroke="#06301C" stroke-width="1.6"/><path d="M8.5 8.7c.15-.4.55-.4.9-.4h.6c.2 0 .4.1.5.4l.6 1.5c.1.25 0 .45-.15.6l-.5.5c.35.75 1.05 1.45 1.8 1.8l.5-.5c.15-.15.35-.25.6-.15l1.5.6c.3.1.4.3.4.5v.6c0 .35 0 .75-.4.9-2.9 1.05-6.4-2.45-7.45-5.35Z" fill="#06301C"/></svg>
-      Reserve My Free Seat
-    </a>
-    <p class="cta-note">Free to join · Instantly added to the WhatsApp group</p>
+    <p class="sub">A free live lecture for new and struggling catfish farmers.</p>
   </div>
 </div>
 
-<!-- PAIN NARRATIVE -->
+<!-- FOUNDER STORY -->
 <section class="pain">
   <div class="wrap">
-    <p class="lead">You can learn how to raise fish and still struggle to make the money you expected.</p>
-    <p>Many farmers enter catfish farming believing: <b>"If I can just learn how to raise the fish properly, the money will follow."</b></p>
-    <p>But after a few production cycles, reality often looks different.</p>
-    <p class="tight">The fish grow.</p>
-    <p class="tight">You harvest.</p>
-    <p>You sell. And somehow, <b>the money you expected still isn't there.</b></p>
-    <p class="tight">You work harder.</p>
-    <p class="tight">You put more money into the farm.</p>
-    <p>You try to raise more fish. But the farm still isn't moving you forward as quickly as you expected.</p>
-    <p class="close">There's a reason for this — and it's what we're going to uncover in this training.</p>
+    <p class="lead">You clicked because you wanted to know what we learned after losing our farm twice.</p>
+    <p>So let's start there.</p>
+    <p class="tight">We made expensive mistakes.</p>
+    <p class="tight">Not small mistakes.</p>
+    <p><b>The kind of mistakes that cost us millions, years of our time, and almost made us give up on catfish farming completely.</b></p>
+    <p class="tight">And the painful part?</p>
+    <p class="tight">We didn't make those mistakes only once.</p>
+    <p><b>We made them twice.</b></p>
+    <p>The second time, we even had someone we believed was experienced helping us.</p>
+    <p>We still lost almost all the capital.</p>
+    <p>It was only after we stepped back, went back to learn properly, and eventually rebuilt the farm that we understood something we wish we had known from the beginning.</p>
+    <p class="lead" style="margin-top:24px;">At first, we thought the answer was simple: learn how to raise the fish properly, and the money will follow.</p>
+    <p>And honestly, you do need to know how to raise your fish properly.</p>
+    <p>If your fish don't grow well, if you cannot keep them healthy, or if you cannot get them to harvest, everything else becomes much harder.</p>
+    <p>But after going through what we went through, we discovered that raising the fish properly was only the beginning.</p>
+    <p>There was something bigger we had failed to understand about building a catfish farm that actually makes money and grows.</p>
+    <p>And since then, we've seen versions of the same problem in other farms we've worked with.</p>
+    <p class="tight">Farmers who are still learning how to get their fish to market size...</p>
+    <p class="tight">Farmers who can already get fish to harvest...</p>
+    <p>And farmers who can produce fish successfully but still struggle to get the result they expected from the business.</p>
+    <p class="close">On Friday, we're going to show you what we discovered.</p>
   </div>
 </section>
 
 <!-- WHAT YOU'LL DISCOVER -->
 <section>
   <div class="wrap">
-    <h2 class="section-title">In This Free Lecture, You'll Discover</h2>
+    <div class="callout">
+      <p>You'll see the <strong>3 things that need to work together</strong> if you want your catfish farm to become more than just a place where fish are raised.</p>
+    </div>
+
+    <h2 class="section-title" style="margin-top:26px;">You'll Understand</h2>
 
     <ul class="secrets">
-      <li><span class="num">&rarr;</span> Why working harder and raising more fish <b>doesn't automatically mean more money.</b></li>
-      <li><span class="num">&rarr;</span> Why a farm can be profitable and <b>still fail to produce the income you actually want.</b></li>
-      <li><span class="num">&rarr;</span> The mistake many new farmers make <b>when they think about growing their farm.</b></li>
-      <li><span class="num">&rarr;</span> What has to change to move from simply raising fish <b>to building a serious catfish business.</b></li>
-      <li><span class="num">&rarr;</span> The framework for building a farm <b>around the income you eventually want it to produce.</b></li>
+      <li><span class="num">&rarr;</span> Why learning to raise your fish properly is important — <b>but why it is only the first part of the journey.</b></li>
+      <li><span class="num">&rarr;</span> Why a farm can produce fish successfully <b>and still lose too much money along the way.</b></li>
+      <li><span class="num">&rarr;</span> Why simply putting more money into the farm <b>isn't always what makes it grow.</b></li>
+      <li><span class="num">&rarr;</span> What we discovered about building the farm <b>so it can actually move toward the income you want from it.</b></li>
     </ul>
+  </div>
+</section>
 
-    <div class="callout">
-      <p><strong>Most importantly:</strong> you'll see the 3 things that have to work together if your catfish farm is going to become a growing source of income.</p>
-    </div>
+<!-- WHY FREE -->
+<section class="pain">
+  <div class="wrap">
+    <p>We're not giving you another long lecture filled with things to memorize.</p>
+    <p>We're showing you the lessons we wish someone had shown us <b>before we lost the money, time and years we lost.</b></p>
+    <p class="lead" style="margin-top:20px;">Because learning these lessons after a bad cycle can be extremely expensive.</p>
+    <p class="tight">You can spend months raising fish...</p>
+    <p class="tight">Spend money on feed, water, labour and other expenses...</p>
+    <p>Only to discover at the end of the cycle that the farm didn't produce the result you expected.</p>
+    <p>And by then, the money is already gone.</p>
+    <p class="close">We know because we've been there. That's why we're opening this lecture to farmers for FREE.</p>
   </div>
 </section>
 
 <!-- QUALIFICATION -->
 <section>
   <div class="wrap">
-    <h2 class="section-title">This Is for Serious Farmers</h2>
-    <p class="section-sub">This training is designed for farmers ready to build and grow a real catfish business.</p>
+    <h2 class="section-title">This Is for You If...</h2>
 
     <div class="qualify-box yes">
-      <h4>You should register if:</h4>
       <ul>
-        <li><span class="mark">&#10003;</span> You're already farming catfish and are in your first or second year.</li>
-        <li><span class="mark">&#10003;</span> You're already producing fish but your profit isn't where you want it to be.</li>
+        <li><span class="mark">&#10003;</span> You're already farming and you're in your first or second year.</li>
+        <li><span class="mark">&#10003;</span> You're struggling to get the kind of profit you expected from the farm.</li>
         <li><span class="mark">&#10003;</span> You've completed your preparations and are ready to stock within the next 7 days.</li>
-        <li><span class="mark">&#10003;</span> You have the resources required to run the farm and are ready to invest in proper knowledge and systems.</li>
-        <li><span class="mark">&#10003;</span> You're looking to build beyond a hobby farm and eventually operate at a serious commercial scale.</li>
+        <li><span class="mark">&#10003;</span> You're still learning the farming side and want to understand what you need to get right from the beginning.</li>
+        <li><span class="mark">&#10003;</span> You have the resources to run the farm and are serious about learning how to build it properly.</li>
+        <li><span class="mark">&#10003;</span> You're building toward a serious commercial-scale catfish business, not simply raising a few fish as a hobby.</li>
       </ul>
     </div>
 
     <div class="qualify-box no">
-      <h4>Please do NOT register if:</h4>
+      <h4>This Is NOT for You If...</h4>
       <ul>
         <li><span class="mark">&#10007;</span> You're only thinking about starting catfish farming sometime in the future.</li>
         <li><span class="mark">&#10007;</span> You haven't yet gotten the basic resources needed to start.</li>
         <li><span class="mark">&#10007;</span> You're looking for a get-rich-quick scheme.</li>
-        <li><span class="mark">&#10007;</span> You're looking for a way to make money without putting in the work.</li>
+        <li><span class="mark">&#10007;</span> You're looking for a way to make money without doing the work.</li>
         <li><span class="mark">&#10007;</span> You're only interested in raising a small number of fish as a hobby.</li>
       </ul>
     </div>
 
-    <p class="qualify-line">This training is for people who are ready to build.</p>
+    <p class="qualify-line">If you're already in the business, or you're ready to start now, don't make the same mistakes we made.</p>
+    <p class="qualify-line" style="margin-top:8px;">Join us LIVE this Friday and learn the 3 lessons that changed the way we build our farm.</p>
+
+    <div class="mid-cta" style="margin-top:22px;">
+      <a href="#" class="cta-btn" data-cta="before-testimonial">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7.03 3 3 7.03 3 12c0 1.77.51 3.42 1.4 4.81L3 21l4.34-1.37A8.96 8.96 0 0 0 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9Z" stroke="#06301C" stroke-width="1.6"/><path d="M8.5 8.7c.15-.4.55-.4.9-.4h.6c.2 0 .4.1.5.4l.6 1.5c.1.25 0 .45-.15.6l-.5.5c.35.75 1.05 1.45 1.8 1.8l.5-.5c.15-.15.35-.25.6-.15l1.5.6c.3.1.4.3.4.5v.6c0 .35 0 .75-.4.9-2.9 1.05-6.4-2.45-7.45-5.35Z" fill="#06301C"/></svg>
+        Secure My Free Seat
+      </a>
+    </div>
   </div>
 </section>
 
@@ -475,26 +484,18 @@ src="https://www.facebook.com/tr?id=1614154800142100&ev=PageView&noscript=1"
     </div>
 
     <span id="testi-end"></span>
-
-    <div class="mid-cta" style="margin-top:22px;">
-      <p>Want results like Pastor Sam's? It starts with Friday's training.</p>
-      <a href="#" class="cta-btn" data-cta="mid">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7.03 3 3 7.03 3 12c0 1.77.51 3.42 1.4 4.81L3 21l4.34-1.37A8.96 8.96 0 0 0 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9Z" stroke="#06301C" stroke-width="1.6"/><path d="M8.5 8.7c.15-.4.55-.4.9-.4h.6c.2 0 .4.1.5.4l.6 1.5c.1.25 0 .45-.15.6l-.5.5c.35.75 1.05 1.45 1.8 1.8l.5-.5c.15-.15.35-.25.6-.15l1.5.6c.3.1.4.3.4.5v.6c0 .35 0 .75-.4.9-2.9 1.05-6.4-2.45-7.45-5.35Z" fill="#06301C"/></svg>
-        Reserve My Free Seat
-      </a>
-    </div>
   </div>
 </section>
 
-<!-- URGENCY -->
+<!-- FINAL CTA -->
 <section>
   <div class="wrap">
     <div class="urgency">
-      <h3>Don't Wait Until Another Production Cycle Teaches You the Hard Way</h3>
-      <p>The earlier you understand how the different parts of a profitable, growing farm fit together, the less expensive your mistakes become.</p>
-      <a href="#" class="cta-btn" data-cta="urgency">
+      <h3>Free Live Lecture</h3>
+      <p>Friday · [TIME] · [PLATFORM]<br>Limited seats available.</p>
+      <a href="#" class="cta-btn" data-cta="final">
         <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7.03 3 3 7.03 3 12c0 1.77.51 3.42 1.4 4.81L3 21l4.34-1.37A8.96 8.96 0 0 0 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9Z" stroke="#06301C" stroke-width="1.6"/><path d="M8.5 8.7c.15-.4.55-.4.9-.4h.6c.2 0 .4.1.5.4l.6 1.5c.1.25 0 .45-.15.6l-.5.5c.35.75 1.05 1.45 1.8 1.8l.5-.5c.15-.15.35-.25.6-.15l1.5.6c.3.1.4.3.4.5v.6c0 .35 0 .75-.4.9-2.9 1.05-6.4-2.45-7.45-5.35Z" fill="#06301C"/></svg>
-        Reserve My Free Seat
+        Secure My Free Seat
       </a>
     </div>
   </div>
